@@ -53,7 +53,7 @@ ul li {
     line-height: 1.5em;
 }
 
-.header{
+header{
     background-color: darkslateblue;
     height: 177px;
     font-size: 0.8em;
@@ -62,7 +62,7 @@ ul li {
     min-width: 900px;
 }
 
-.main, .lgog, .menubar, .site_content, .footer{
+main, .lgog, nav, .site_content, .footer{
     margin-left: auto;
     margin-right: auto;
 }
@@ -90,7 +90,7 @@ ul li {
     color: #999;
 }
 
-.menubar{
+nav{
     width: 900px;
     height: 46px;
 }
@@ -134,7 +134,7 @@ hr{
     background-color: white;
 }
 
-.sitebar_container{
+aside{
     float: right;
     width: 224px;
 }
@@ -178,14 +178,14 @@ hr{
     float: right;
 }
 
-.content{
+section{
     text-align: left;
     width: 620px;
     padding: 0 0 0 5px;
     float: left;
 }
 
-.content a{
+section a{
     text-decoration: none;
 }
 

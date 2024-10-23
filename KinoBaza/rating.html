@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="RU">
 <head>
     <meta charset="UTF-8">
     <title>Рейтинг фильмов</title>
@@ -9,9 +9,9 @@
 </head>
 <body>
 
-    <div class="main">
+    <main>
 
-        <div class="header">
+        <header>
             <div class="logo">
                 <div class="logo_text">
                     <h1><a href="index.html">КиноБаза</a></h1>
@@ -19,22 +19,26 @@
                 </div>
             </div>
 
-            <div class="menubar">
+            <nav>
 
                 <ul class="menu">
-                    <li class="selected"><a href="index.html">Главная</a></li>
+                    <li><a href="index.html">Главная</a></li>
                     <li><a href="films.html">Фильмы</a></li>
                     <li><a href="series.html">Сериалы</a></li>
-                    <li><a href="rating.html">Рейтинг фильмов</a></li>
+                    <li class="selected"><a href="rating.html">Рейтинг фильмов</a></li>
                     <li><a href="contact.html">Контакты</a></li>
                 </ul>
 
-            </div>
-        </div>
+                <ul class="language-menu">
+                    <li><a href="rating.html">RU</a></li>
+                    <li><a href="en_rating.html">EN</a></li>
+                </ul>
+            </nav>
+        </header>
 
         <div class="site_content">
 
-            <div class="sitebar_container">
+            <aside>
 
                 <div class="sitebar">
                     <h2>Поиск</h2>
@@ -67,16 +71,16 @@
                 <div class="sitebar">
                     <h2>Рейтинг фильмов</h2>
                     <ul>
-                        <li><a href="show.html">Интерстеллар</a><span class="rating_sitebar">8.1</span></li>
-                        <li><a href="show2.html">Матрица</a><span class="rating_sitebar">8.0</span></li>
-                        <li><a href="show3.html">Безумный Макс</a><span class="rating_sitebar">7.5</span></li>
-                        <li><a href="show4.html">Облачный атлас</a><span class="rating_sitebar">7.4</span></li>   
+                        <li><a href="shows/show.html">Интерстеллар</a><span class="rating_sitebar">8.1</span></li>
+                        <li><a href="shows/show2.html">Матрица</a><span class="rating_sitebar">8.0</span></li>
+                        <li><a href="shows/show3.html">Безумный Макс</a><span class="rating_sitebar">7.5</span></li>
+                        <li><a href="shows/show4.html">Облачный атлас</a><span class="rating_sitebar">7.4</span></li>   
                     </ul>
                 </div>
 
-            </div>
+            </aside>
 
-            <div class="content">
+            <section>
 
                 <table>
 
@@ -88,32 +92,32 @@
                     </tr>
                     <tr>
                         <td class="center"><img src="assets/img/inter.png"></td>
-                        <td>1. <a href="show.html">Интерстеллар</a></td>
+                        <td>1. <a href="shows/show.html">Интерстеллар</a></td>
                         <td class="center">2014</td>
                         <td class="center rating">8.1</td>
                     </tr>
                     <tr>
                         <td class="center"><img src="assets/img/matrix.png"></td>
-                        <td>2. <a href="show2.html">Матрица</a></td>
+                        <td>2. <a href="shows/show2.html">Матрица</a></td>
                         <td class="center">1999</td>
                         <td class="center rating">8.0</td>
                     </tr>
                     <tr>
                         <td class="center"><img src="assets/img/max.png"></td>
-                        <td>3. <a href="show3.html">Безумный Макс</a></td>
+                        <td>3. <a href="shows/show3.html">Безумный Макс</a></td>
                         <td class="center">2014</td>
                         <td class="center rating">7.5</td>
                     </tr>
                     <tr>
                         <td class="center"><img src="assets/img/cloud.png"></td>
-                        <td>4. <a href="show4.html">Облачный атлас</a></td>
+                        <td>4. <a href="shows/show4.html">Облачный атлас</a></td>
                         <td class="center">2013</td>
                         <td class="center rating">7.4</td>
                     </tr>
 
                 </table>
 
-                </div>
+            </section>
 
                 </div>
 
@@ -127,6 +131,6 @@
                     </p>
                     <p>kinopoisk.ru</p>
                 </div>
-            </div>
+            </main>
         </body>
         </html>

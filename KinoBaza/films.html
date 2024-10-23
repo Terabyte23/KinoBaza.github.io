@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="RU">
 <head>
     <meta charset="UTF-8">
     <title>Фильмы</title>
@@ -9,9 +9,9 @@
 </head>
 <body>
 
-    <div class="main">
+    <main>
 
-        <div class="header">
+        <header>
             <div class="logo">
                 <div class="logo_text">
                     <h1><a href="index.html">КиноБаза</a></h1>
@@ -19,22 +19,26 @@
                 </div>
             </div>
 
-            <div class="menubar">
+            <nav>
 
                 <ul class="menu">
-                    <li class="selected"><a href="index.html">Главная</a></li>
-                    <li><a href="films.html">Фильмы</a></li>
+                    <li><a href="index.html">Главная</a></li>
+                    <li class="selected"><a href="films.html">Фильмы</a></li>
                     <li><a href="series.html">Сериалы</a></li>
                     <li><a href="rating.html">Рейтинг фильмов</a></li>
                     <li><a href="contact.html">Контакты</a></li>
                 </ul>
 
-            </div>
-        </div>
+                <ul class="language-menu">
+                    <li><a href="films.html">RU</a></li>
+                    <li><a href="en_films.html">EN</a></li>
+                </ul>
+            </nav>
+        </header>
 
         <div class="site_content">
 
-            <div class="sitebar_container">
+            <aside>
 
                 <div class="sitebar">
                     <h2>Поиск</h2>
@@ -67,16 +71,16 @@
                 <div class="sitebar">
                     <h2>Рейтинг фильмов</h2>
                     <ul>
-                        <li><a href="show.html">Интерстеллар</a><span class="rating_sitebar">8.1</span></li>
-                        <li><a href="show2.html">Матрица</a><span class="rating_sitebar">8.0</span></li>
-                        <li><a href="show3.html">Безумный Макс</a><span class="rating_sitebar">7.5</span></li>
-                        <li><a href="show4.html">Облачный атлас</a><span class="rating_sitebar">7.4</span></li>   
+                        <li><a href="shows/show.html">Интерстеллар</a><span class="rating_sitebar">8.1</span></li>
+                        <li><a href="shows/show2.html">Матрица</a><span class="rating_sitebar">8.0</span></li>
+                        <li><a href="shows/show3.html">Безумный Макс</a><span class="rating_sitebar">7.5</span></li>
+                        <li><a href="shows/show4.html">Облачный атлас</a><span class="rating_sitebar">7.4</span></li>   
                     </ul>
                 </div>
 
-            </div>
+            </aside>
 
-            <div class="content">
+            <section>
 
                 <div class="info_film">
                     <img src="assets/img/inter.png">
@@ -85,7 +89,7 @@
                     предположительно соединяет области пространства-времени через большое
                     расстояние) в путешествие, чтобы превзойти прежние ограничения для
                     космеческих путешествий человека и переселить человечество на другую планету.
-                    <div class="button"><a href="show.html">Смотреть</a></div>
+                    <div class="button"><a href="shows/show.html">Смотреть</a></div>
                 </div>
 
                 <div class="info_film">
@@ -95,7 +99,7 @@
                     предположительно соединяет области пространства-времени через большое
                     расстояние) в путешествие, чтобы превзойти прежние ограничения для
                     космеческих путешествий человека и переселить человечество на другую планету.
-                    <div class="button"><a href="show3.html">Смотреть</a></div>
+                    <div class="button"><a href="shows/show3.html">Смотреть</a></div>
                 </div>
 
                 <div class="info_film">
@@ -105,7 +109,7 @@
                     предположительно соединяет области пространства-времени через большое
                     расстояние) в путешествие, чтобы превзойти прежние ограничения для
                     космеческих путешествий человека и переселить человечество на другую планету.
-                    <div class="button"><a href="show2.html">Смотреть</a></div>
+                    <div class="button"><a href="shows/show2.html">Смотреть</a></div>
                 </div>
 
                 <div class="info_film">
@@ -115,10 +119,10 @@
                     предположительно соединяет области пространства-времени через большое
                     расстояние) в путешествие, чтобы превзойти прежние ограничения для
                     космеческих путешествий человека и переселить человечество на другую планету.
-                    <div class="button"><a href="show4.html">Смотреть</a></div>
+                    <div class="button"><a href="shows/show4.html">Смотреть</a></div>
                 </div>
 
-            </div>
+            </section>
 
         </div>
 
@@ -132,6 +136,6 @@
             </p>
             <p>kinopoisk.ru</p>
         </div>
-    </div>
+    </main>
 </body>
 </html>
