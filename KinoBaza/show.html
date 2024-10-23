@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Главная страница</title>
+    <title>Фильм Интерстеллар</title>
     <meta name="description" content="КиноБаза - это портал о кино">
     <meta name="keywords" content="фильмы, фильмы онлайн, hd">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -11,7 +11,7 @@
 
     <div class="main">
 
-        <header class="header">
+        <div class="header">
             <div class="logo">
                 <div class="logo_text">
                     <h1><a href="index.html">КиноБаза</a></h1>
@@ -19,7 +19,7 @@
                 </div>
             </div>
 
-            <nav class="menubar">
+            <div class="menubar">
 
                 <ul class="menu">
                     <li class="selected"><a href="index.html">Главная</a></li>
@@ -29,16 +29,12 @@
                     <li><a href="contact.html">Контакты</a></li>
                 </ul>
 
-                <ul class="language-menu">
-                    <li><a href="index.html">RU</a></li>
-                    <li><a href="eng.html">EN</a></li>
-                </ul>
-            </nav>
-        </header>
+            </div>
+        </div>
 
         <div class="site_content">
 
-            <aside class="sitebar_container">
+            <div class="sitebar_container">
 
                 <div class="sitebar">
                     <h2>Поиск</h2>
@@ -78,66 +74,65 @@
                     </ul>
                 </div>
 
-            </aside>
+            </div>
 
-            <section class="content">
+            <div class="content">
 
-                <h1>Новые фильмы</h1>
+                <h1>Интерстеллар</h1>
 
-                <div class="films_block">
+                <iframe width="560" height="315" src="https://www.youtube.com/watch?v=m2vijtILDuk"frameborder="0" allowfullscreen></iframe>
 
-                    <a href="show2.html"><img src="assets/img/matrix.png"></a>
-                    <a href="show3.html"><img src="assets/img/max.png"></a>
-                    <a href="show.html"><img src="assets/img/inter.png"></a>
-                    <a href="show4.html"><img src="assets/img/cloud.png"></a>
-
+                <div class="info_film_page">
+                    <span class="label">рейтинг: </span><span class="value">8.1 / 10</span>
+                    <span class="label">год: </span><span class="value">2014</span>
+                    <span class="label">режиссер: </span><span class="value">Кристофер Нолан</span>
+                </div>
+                <hr>
+                <h2>Описание Интерстеллар</h2>
+                <div class="description_film">
+                    <img src="assets/img/inter.png">
+                    Когда засуха проводит человечество к продовольственному кризису, коллектив
+                    исследователей и учёных отправляется сквозь червоточину (которая 
+                    предположительно соединяет области пространства-времени через большое
+                    расстояние) в путешествие, чтобы превзойти прежние ограничения для
+                    космеческих путешествий человека и переселить человечество на другую планету.
                 </div>
 
-                <h1>Новые сериалы</h1>
 
-                <div class="films_block">
 
-                    <a href="show7.html"><img src="assets/img/dead.png"></a>
-                    <a href="show8.html"><img src="assets/img/silicon.png"></a>
-                    <a href="show5.html"><img src="assets/img/breakingbad.png"></a>
-                    <a href="show6.html"><img src="assets/img/xfiles.png"></a>
+                <hr>
+                <h2>Отзывы об Интерстеллар</h2>
 
-                </div>
-
-                <div class="posts">
-
-                    <hr>
-                    <h2><a href="#">Как снимали Интерстеллар</a></h2>
-                    <div class="posts_content">
-                        <p>
-                            45 лет исполнилось Кристоферу Нолану - одному из самых успешных
-                            режиссерев нашего времени, чьи работы одинаково любимы как
-                            взыскательными критиками, так и простыми зрителями. Фильмом
-                            изначально занималась студия Paramount. Когда Кристофер Нолан занял
-                            место режессера, студия Warner Bros., которая выпускала его последние
-                            фильмы, добилась участия в проекте.
-                        </p>
+                <div class="reviews">
+                    <div class="review_name">
+                        Сергей
                     </div>
-
-                    <p><a href="#">читать</a></p>
-
-                    <hr>
-                    <h2><a href="#">Актер Том Хенкс поделился впечатлением о фестивале</a></h2>
-                    <div class="posts_content">
-                        <p>
-                            16 февраля в Лондоне состоялвсь 67-я церемония вручения наград
-                            Британской киноакадемии. Леонардо ДиКаприо, Брэд Питт, Анджелина Джоли,
-                            Кейт Бланшетт, Хелен Миррен, Эми Адамс, Кристиан Бэйл, Альфонсо Куарон и
-                            другие гости и победители премии - в нашем репортаже.</p>
+                    <div class="review_text">
+                        Отличный фильм, 3 часа пролетели не заметно.
                     </div>
-                    <p><a href="#">читать</a></p>
-
                 </div>
 
+                <div class="reviews">
+                    <div class="review_name">
+                        Дмитрий
+                    </div>
+                    <div class="review_text">
+                        После фильма Начало, я с не терпением ждал ещё работ от Кристофера
+                        Нолана. Интерстеллар меня впечатлил.
+                    </div>
+                </div>
+                
+                <div class="send">
+                    <form action="#" method="post" id="review">
+                        <input type="text" name="review_text" placeholder="ваше имя">
+                        <textarea name="review_text"></textarea>
+                        <input class="btn" type="submit" value="отправить">
+                    </form>
+                </div>
 
-            </section>
-
-        </div>
+                </div>
+                </div>
+                
 
         <div class="footer">
             <p>

@@ -73,8 +73,8 @@ ul li {
 }
 
 .logo h1, .logo h2{
-    font: normal 300% 'century gothic', 'Arial', sans-serif;
-    margin: 0 0 0 9px;
+    font: normal 300% 'century gothic', arial, sans-serif;
+    margin: 0 0 0 420px;
 }
 
 .logo_text h1, .logo_text h1 a, .logo_text h1 a:hover{
@@ -139,7 +139,7 @@ hr{
     width: 224px;
 }
 
-.sidebar{
+.sitebar{
     float: right;
     width: 222px;
     padding: 5%;
@@ -155,7 +155,7 @@ hr{
     cursor: pointer;
 }
 
-.sidebar h2{
+.sitebar h2{
     color: #136cb2;
 }
 
@@ -165,16 +165,16 @@ hr{
     margin-left: 2%;
 }
 
-.sidebar ul{
+.sitebar ul{
     margin: 0;
 }
 
-.sidebar ul li{
+.sitebar ul li{
     list-style-type: none;
     margin:  0 0 0 0;
 }
 
-.sidebar .rating_sidebar{
+.sitebar .rating_sitebar{
     float: right;
 }
 
@@ -359,4 +359,40 @@ td img{
 
 .footer p{
     padding: 0 0 10px 0;
+}
+
+.language-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.language-menu li {
+    display: inline;
+}
+
+.language-menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Стиль для активного языка */
+.language-menu a.active {
+    color: #333;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+/* Стиль при наведении */
+.language-menu a:hover {
+    color: #fff;
+    border-color: #fff;
+    background-color: #333;
 }
